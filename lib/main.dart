@@ -1,6 +1,7 @@
 import 'package:alwafaa_travel/latihanModul/pertemuan4.dart';
 import 'package:alwafaa_travel/latihanModul/pertemuan5.dart';
 import 'package:alwafaa_travel/latihanModul/pertemuan6.dart';
+import 'package:alwafaa_travel/latihanModul/pertemuan9API.dart';
 import 'package:alwafaa_travel/screen/homepage.dart';
 import 'package:alwafaa_travel/screen/splashscreen.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +17,7 @@ class TravelApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: Pertemuan9api(),
     );
   }
 }
